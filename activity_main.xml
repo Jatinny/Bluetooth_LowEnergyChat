@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1.0"
+    android:keepScreenOn="true">
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="2.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight="0.6"
+        android:background="@android:color/holo_blue_dark">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="0.9">
+
+            <RelativeLayout
+                android:id="@+id/r"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </ScrollView>
+    </LinearLayout>
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="20dp"
+android:weightSum="2.0"
+android:layout_weight="1.4">
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:weightSum="2.0"
+android:layout_weight="1.0">
+<EditText
+    android:id="@+id/msg"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hint="Type a message here..."
+    android:ems="10" android:layout_weight="0.4" />
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.6" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.0">
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1.0"
+       />
+</LinearLayout>
+</LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
